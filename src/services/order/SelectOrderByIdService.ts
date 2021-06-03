@@ -1,5 +1,5 @@
-import Order from '../../models/Order';
-import OrdersRepository from '../../repositories/OrdersRepository';
+import Order from '@models/Order';
+import OrdersRepository from '@repositories/OrdersRepository';
 
 class SelectOrderByIdService {
     private ordersRepository: OrdersRepository;

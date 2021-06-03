@@ -1,5 +1,4 @@
-import Order from '../../models/Order';
-import OrdersRepository from '../../repositories/OrdersRepository';
+import OrdersRepository from '@repositories/OrdersRepository';
 
 class DeleteOrderByIdService {
     private ordersRepository: OrdersRepository;

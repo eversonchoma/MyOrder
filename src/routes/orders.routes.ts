@@ -1,7 +1,7 @@
 import {Router} from 'express';
 import {format, parseISO} from 'date-fns';
-import OrdersRepository from '../repositories/OrdersRepository';
-import OrderService from '../services/order';
+import OrdersRepository from '@repositories/OrdersRepository';
+import OrderService from '@services/order';
 
 const ordersRouter = Router();
 

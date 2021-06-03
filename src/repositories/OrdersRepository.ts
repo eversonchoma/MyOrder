@@ -1,4 +1,4 @@
-import Order from '../models/Order';
+import Order from '@models/Order';
 
 interface CreateOrderDTO{
     id: string;
